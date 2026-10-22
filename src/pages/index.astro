@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostList from '../components/PostList.astro';
+import { getPublishedPosts } from '../lib';
+import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from '../consts';
+
+const posts = (await getPublishedPosts()).slice(0, 10);
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+  { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: SITE_URL, description: SITE_DESCRIPTION },
+];
+---
+<BaseLayout jsonLd={jsonLd}>
+  <section class="intro">
+    <h1>{SITE_NAME}</h1>
+    <p>{SITE_DESCRIPTION}</p>
+  </section>
+  <PostList posts={posts} />
+</BaseLayout>

@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostList from '../../components/PostList.astro';
+import { getPublishedPosts } from '../../lib';
+
+const posts = await getPublishedPosts();
+---
+<BaseLayout title="Blog" description="Guides, ideas and gift inspiration from ChopOnline.">
+  <h1>Blog</h1>
+  <PostList posts={posts} />
+</BaseLayout>
