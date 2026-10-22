@@ -17,3 +17,8 @@ Static Astro 5 blog. Posts are Markdown in `src/content/blog/`; the schema is in
 7. Link to the relevant ChopOnline product or Etsy listing once, naturally; disclose own products plainly.
 8. UK English. `updatedDate` whenever facts change.
 9. No invented stats, reviews or testimonials.
+10. Answer under each H2 in about 40–60 words before any detail; keep the core answer in the top third of the page.
+11. Link every statistic to its source inline, and say when a source is a company survey rather than official data.
+12. Author is always ChopOnline, never an AI persona.
+
+Content plan and the evidence behind these rules: `docs/content-plan.md`.
