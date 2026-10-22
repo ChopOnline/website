@@ -12,7 +12,7 @@ faq:
     answer: "Usually not. Most groups count only the price of the gift. Agree this upfront, or choose gifts with free UK delivery so the question never comes up."
   - question: "Should the Secret Santa limit be a maximum or a target?"
     answer: "Treat it as a maximum. Surveys suggest around two-thirds of people go over their agreed limit, which defeats the point of having one."
-draft: true
+draft: false
 ---
 
 Most UK Secret Santa groups set a limit of **£10**, but the average person actually spends **£21–£24** on a Secret Santa gift. A £10 limit suits office groups; £15–£20 suits friends and family groups.
@@ -57,4 +57,4 @@ Three rules keep the limit fair:
 
 A personalised or themed mug is one of the easiest Secret Santa gifts at £10–£15. It works for almost anyone, it's useful, and it doesn't need sizes.
 
-ChopOnline makes printed mugs with free UK delivery, including the [Tea-is the Season robin mug](https://www.etsy.com/) for tea lovers. *(ChopOnline is the author of this guide and sells these mugs.)*
+ChopOnline makes printed mugs with free UK delivery, including the Tea-is the Season robin mug for tea lovers. *(ChopOnline is the author of this guide and sells these mugs.)*
